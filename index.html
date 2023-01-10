@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <script>
+
+      //задача 1
+      let numbers = [1, 2, 3, 4, 5];
+      for (let i = 0; i < numbers.length; i++) {
+         console.log(numbers[i]);
+      }
+
+      // //задача 2
+      let number = [5, 4, 3, 2, 1];
+      for (let i = 0; i < number.length; i++) {
+         console.log(number[i]);
+      }
+
+      //задача 3 
+      let i = 1;
+      while (i < 11) {
+         console.log(i + " * 3 = " + i * 3);
+         i++;
+      }
+
+      // задача 4
+      let positiveNumber = prompt('Введите любое целое положительное число')
+      if (positiveNumber > 0) {
+         let sum = 0;
+         for (let i = 1; i <= positiveNumber; i++) {
+            sum = sum + i;
+         }
+         console.log('Сумма:', sum);
+      }
+   </script>
+</body>
+
+</html>
